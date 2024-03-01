@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cd094a4-d746-4219-a4c4-00e3408ab595" name="Changes" comment="" />
+    <list default="true" id="5c7442bd-c02e-408e-8acc-99c3efcac9cc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/projeto_leo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/java_leo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/out/production/java_leo/Colaborador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/out/production/java_leo/Instrutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/out/production/java_leo/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/out/production/java_leo/Treinamento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Colaborador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Instrutor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Treinamento.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="2clfnvDjOtUnhocyvooN0fKWbUK" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2d5JpuLKcUMhzKHnqkECloLJ6ch" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -15,18 +35,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/ct67ca/Desktop/projeto_leo"
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6cd094a4-d746-4219-a4c4-00e3408ab595" name="Changes" comment="" />
-      <created>1708691255824</created>
+      <changelist id="5c7442bd-c02e-408e-8acc-99c3efcac9cc" name="Changes" comment="" />
+      <created>1709292192535</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1708691255824</updated>
+      <updated>1709292192535</updated>
     </task>
     <servers />
   </component>
