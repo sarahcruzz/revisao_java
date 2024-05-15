@@ -23,5 +23,19 @@ public class Calculo {
         return desconto;
     }
 
+    public double acrescimoHorasExtras(double qtdHoras, double salarioBruto){
+        double valorHoraNormal = salarioBruto / 160;
+        double valorHoraExtra = valorHoraNormal * 1.5;
+        double acrescimo = qtdHoras * (valorHoraExtra - valorHoraNormal);
+
+        return acrescimo;
+    }
+
+    public double obterSalarioLiquido(double salarioBruto, double inss, double irpf, double planoSaude, double acrescimoHoraExtra){
+        double salarioLiquido = salarioBruto - inss - irpf - planoSaude + acrescimoHoraExtra;
+
+        return salarioLiquido;
+    }
+
 
 }
