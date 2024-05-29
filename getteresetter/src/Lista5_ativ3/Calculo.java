@@ -1,17 +1,32 @@
 package Lista5_ativ3;
 
 public class Calculo {
-    // criando os métodos de cálculo do empréstimo
-    public double valorParcelaEmprestimo(double valorTotalEmprestimo){
-        double valorParcela = valorTotalEmprestimo / 24;
 
-        return valorParcela;
+    final Double PeriodoDeTempo = 24.0;
+    final Double TotalDeJuros = 0.35;
+
+
+    double salario;
+    double valorAEmprestar;
+
+
+
+    public Calculo(double salario, double valorAEmprestar) {
+        this.salario = salario;
+        this.valorAEmprestar = valorAEmprestar;
     }
 
-    public double valorTotalEmprestimo(double valorEmprestimo){
-        double valorTotal = valorEmprestimo + ((valorEmprestimo * 35) / 100);
+    public double calcularTotalASerPago(){
 
-        return  valorTotal;
+        double taxaJuros = (this.valorAEmprestar * this.TotalDeJuros);
+
+        return (this.valorAEmprestar + taxaJuros);
+
+    }
+
+    public double calcularParcelas(double totalPagar){
+
+        return (totalPagar /this.PeriodoDeTempo);
     }
 
 }

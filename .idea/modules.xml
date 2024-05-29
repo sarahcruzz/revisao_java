@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ColisaoTrens/ColisaoTrens.iml" filepath="$PROJECT_DIR$/ColisaoTrens/ColisaoTrens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista01/Lista01.iml" filepath="$PROJECT_DIR$/Lista01/Lista01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista02/Lista02.iml" filepath="$PROJECT_DIR$/Lista02/Lista02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista03/Lista03.iml" filepath="$PROJECT_DIR$/Lista03/Lista03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista05/Lista05.iml" filepath="$PROJECT_DIR$/Lista05/Lista05.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sobrescrita/Sobrescrita.iml" filepath="$PROJECT_DIR$/Sobrescrita/Sobrescrita.iml" />
       <module fileurl="file://$PROJECT_DIR$/conceitos_heranca/conceitos_heranca.iml" filepath="$PROJECT_DIR$/conceitos_heranca/conceitos_heranca.iml" />
       <module fileurl="file://$PROJECT_DIR$/encapsulamento/encapsulamento.iml" filepath="$PROJECT_DIR$/encapsulamento/encapsulamento.iml" />

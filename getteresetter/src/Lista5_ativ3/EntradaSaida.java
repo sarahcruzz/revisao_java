@@ -1,28 +1,70 @@
 package Lista5_ativ3;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class EntradaSaida {
-    // criando os métodos de entrada e saída
+    double salario;
+    double valorAEmprestar;
 
-    public double obterSalario(){
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Digite o valor do salário atual: R$");
-        double salario = scanner.nextDouble();
+    public EntradaSaida() {
+        this.salario =  obterSalarioCliente();
+        this.valorAEmprestar = obterEmprestimoCliente();
+    }
+
+    Scanner read = new Scanner(System.in);
+    Validacao validacao = new Validacao();
+
+
+    public double obterSalarioCliente(){
+        double salario = 0;
+
+        while(true) {
+            try {
+                System.out.println("Por favor, insira o valor de seu salário: R$");
+                salario = read.nextDouble();
+
+                if(salario < 0 ){
+                    System.out.println("Valor inválido, insira um número >= 0");
+                    continue;
+                }
+                break;
+            } catch (InputMismatchException e) {
+                System.out.println("Valor inválido,insira um número.");
+            }
+            read.nextLine();
+        }
 
         return salario;
 
     }
 
-    public double valorEmprestimo(){
-        Scanner scanner = new Scanner(System.in);
-
-        while (true){
-            System.out.println("Digite o valor que gostaria de emprestar: R$");
-            double valorEmprestimo = scanner.nextDouble();
-
-
-        return valorEmprestimo;
+    double getSalario(){
+        return this.salario;
     }
 
+    public double obterEmprestimoCliente() {
+
+        double valorAEmprestar = 0;
+
+        while (true) {
+            try {
+                System.out.print("Insira qual o valor que você deseja emprestar: R$");
+                valorAEmprestar = read.nextDouble();
+                if (valorAEmprestar < 0 || !validacao.validarValorEmprestimo(valorAEmprestar)) {
+                    System.out.println("Emprestimo inválido, insira um valor entre 0 e R$200.000,00");
+                    continue;
+                }
+                break;
+            } catch (InputMismatchException e) {
+                System.out.println("Valor inválido, por favor insira um número.");
+            }
+            read.nextLine();
+        }
+        return valorAEmprestar;
+    }
+
+    double getValorEmprestar(){
+        return this.valorAEmprestar;
+    }
 }
